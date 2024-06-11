@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            fontFamily: {
+                "rajdhani": ['Rajdhani'],
+                "roboto": ['Roboto']
+            },
+            extend: {
+              colors: {
+                primary: "#213C5C",
+                "red-theme": "#EA0000",
+                "secondary": "#F5FBFF",
+              },
+            }
+          }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @font-face {
+            font-family: "HelveticaNeue";
+            src: url(fonts/HelveticaNeueLight.otf);
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: "HelveticaNeue";
+            src: url(fonts/HelveticaNeueMedium.otf);
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: "HelveticaNeue";
+            src: url(fonts/HelveticaNeueBold.otf);
+            font-weight: 500;
+        }
+        body {
+            font-family: "HelveticaNeue";
+            font-weight: 300;
+        }
+        @layer utilities {
+            .container-custom {
+                @apply container mx-auto px-8 md:px-12 lg:px-16 2xl:px-36 w-full
+            }
+        }
+    </style>
+    <title>PT Aliansi Inovasi Global</title>
+    <meta name="title" content="PT Aliansi Inovasi Global">
+    <meta name="description" content="Optimize and increase your business traction instantly">
+    <meta name="keywords" content="Alig, bussiness, growth hacking, marketing, talent, survey, data collection, manage services, panggilin inovasi global, PT Aliansi Inovasi Global">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.svg">
+    <meta property="og:type" content="business.business">
+    <meta property="og:title" content="PT Aliansi Inovasi Global">
+    <meta property="og:url" content="www.alig.com">
+    <meta property="og:image" content="https://ik.imagekit.io/p4ukigs1hrvx/Alig_W86cgEGS3?updatedAt=1718010621436">
+    <meta property="og:description" content="Alig, bussiness, growth hacking, marketing, talent, survey, data collection, manage services, panggilin inovasi global, PT Aliansi Inovasi Global">
+    <meta property="business:contact_data:street_address" content="Menara by Kibar 5th floor Jl. Raden Saleh Raya tidak.46A, RT.1/RW.2, Cikini, Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10330">
+    <meta property="business:contact_data:locality" content="Jakarta Pusat">
+    <meta property="business:contact_data:region" content="DKI Jakarta">
+    <meta property="business:contact_data:country_name" content="Indonesia">
+</head>
+<body class="w-screen !overflow-x-hidden">
+    
+    <header class="w-screen overflow-x-hidden">
+        <div class="container-custom flex flex-col items-center py-10 gap-20">
+            <img src="./assets/alig.png" alt="alig" class="w-[150px]">
+            <div class="relative">
+                <img src="./assets/a.png" alt="" value="0.5" class="parallax-el">
+                <img src="./assets/head.png" alt="" value="2" percentTranslateX="-50" percentTranslateY="-50" class="-translate-x-1/2 -translate-y-1/2 parallax-el w-[40%] md:w-auto absolute z-10 top-1/2 left-1/2">
+                <img src="./assets/laptop.png" alt="" value="-2" class="parallax-el w-[40%] md:w-auto absolute z-10 top-0 -right-20">
+                <img src="./assets/hand.png" alt="" value="4" class="parallax-el w-[40%] md:w-auto absolute z-10 bottom-0 -left-20">
+                <img src="./assets/dot.png" alt="" value="-1.5" class="parallax-el w-[40%] md:w-auto absolute z-10 bottom-10 right-0">
+                <img src="./assets/dot-2.png" alt="" value="5" percentTranslateX="-50" percentTranslateY="0" class="parallax-el w-[40%] md:w-auto absolute z-10 top-0 left-1/3 -translate-x-1/2">
+                <img src="./assets/cloud.png" alt="" value="3" class="parallax-el w-[40%] md:w-auto absolute z-10 top-20 left-10">
+            </div>
+            <div class="flex flex-col w-full gap-2 items-center">
+                <p class="text-primary m-0 font-rajdhani text-3xl md:text-5xl font-semibold capitalize text-center"> a reliable digital & business partner</p>
+                <p class="text-gray-400 m-0 text-center">We assemble an experienced interdisciplinary team <span class="font-medium">to make your vision real.</span></p>
+                <button class="bg-red-theme rounded-full px-7 py-1 text-white font-roboto mt-5">Find out</button>
+            </div>
+        </div>
+    </header>
+    <section class="container-custom grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 py-10">
+        <div class="flex justify-center"><img src="./assets/big-a.svg" alt="" class=""></div>
+        <div class="flex flex-col gap-5">
+            <p class="text-3xl text-gray-400 font-rajdhani">About <span class="font-semibold">Alig.CO</span></p>
+            <p class="text-base text-gray-400"><span class="font-semibold text-black">Alig Co. (PT Aliansi Inovasi Global)</span> is an IT company, a place where strategy, creativity, and technology converge. We love to find simple solutions for complex challenges and aim to deliver beautiful crafted work.</p>
+        </div>
+        <div class="flex flex-col gap-5">
+            <p class="text-3xl text-gray-400 font-rajdhani pointer-events-none opacity-0">About <span class="font-semibold">Alig.CO</span></p>
+            <p class="text-base text-gray-400">We are a passion-driven technology & business company, willing to go the extra mile to ensure our products, services and our relationships with our clients are the best they can be.</p>
+        </div>
+    </section>
+    <section class="bg-primary w-full relative my-10">
+        <img src="./assets/pattern.png" alt="" class="w-full absolute top-0 left-0 right-0 bottom-0 h-full z-20">
+        <div class="w-full h-full top-0 left-0 bottom-0 right-0 flex flex-col items-center py-10">
+            <p class="font-rajdhani text-white text-4xl">Our <span class="font-semibold">Services</span></p>
+            <p class="text-white font-medium">Our services cover all business needs.</p>
+            <div class="w-full grid grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-10 container-custom mt-10">
+                <div class="flex flex-col gap-5 items-center w-full">
+                    <div class="bg-white rounded-2xl p-4 flex items-center w-full justify-center">
+                        <img src="./assets/service-1.png" alt="software development & digital agency" class="w-[120px]">
+                    </div>
+                    <p class="text-white font-medium">Software Development & Digital Agency</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center w-full">
+                    <div class="bg-white rounded-2xl p-4 flex items-center w-full justify-center">
+                        <img src="./assets/service-2.png" alt="sIT Network & Telco" class="w-[120px]">
+                    </div>
+                    <p class="text-white font-medium">IT Network & Telco</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center w-full">
+                    <div class="bg-white rounded-2xl p-4 flex items-center w-full justify-center">
+                        <img src="./assets/service-3.png" alt="Smart Home/Office (IOT" class="w-[120px]">
+                    </div>
+                    <p class="text-white font-medium">Smart Home/Office (IOT)</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center w-full">
+                    <div class="bg-white rounded-2xl p-4 flex items-center w-full justify-center">
+                        <img src="./assets/service-4.png" alt="manpower sourcing" class="w-[120px]">
+                    </div>
+                    <p class="text-white font-medium">Manpower Sourcing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-custom py-10 my-10">
+        <h2 class="font-rajdhani text-primary text-4xl font-semibold">Software Development <span class="text-red-theme">& Digital Agency.</span></h2>
+        <p class="text-gray-400 mt-2">We build digital products and user experience that represent you.</p>
+        <div class="flex flex-wrap gap-5 mt-10">
+            <div class="border border-solid bg-secondary border-gray-300 rounded-full py-2 px-4 flex items-center gap-2">
+                <img src="./assets/icon-1.svg" alt="" class="h-[20px]">
+                <p class="m-0 text-gray-400 font-light text-xs">Reliable Platform</p>
+            </div>
+            <div class="border border-solid bg-secondary border-gray-300 rounded-full py-2 px-4 flex items-center gap-2">
+                <img src="./assets/icon-2.svg" alt="" class="h-[20px]">
+                <p class="m-0 text-gray-400 font-light text-xs">User Friendly</p>
+            </div>
+            <div class="border border-solid bg-secondary border-gray-300 rounded-full py-2 px-4 flex items-center gap-2">
+                <img src="./assets/icon-3.svg" alt="" class="h-[20px]">
+                <p class="m-0 text-gray-400 font-light text-xs">Best User Experience</p>
+            </div>
+            <div class="border border-solid bg-secondary border-gray-300 rounded-full py-2 px-4 flex items-center gap-2">
+                <img src="./assets/icon-4.svg" alt="" class="h-[20px]">
+                <p class="m-0 text-gray-400 font-light text-xs">Proper Business</p>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-10">
+            <div class="border border-solid border-gray-200 bg-secondary rounded-[25px]">
+                <img src="./assets/digital-development.png" alt="" class="w-full object-cover">
+                <div class="p-5 flex flex-col gap-2">
+                    <p class="m-0 font-semibold text-gray-500 text-xl">
+                        Digital Product Development
+                    </p>
+                    <p class="m-0 text-gray-400 text-base">
+                        Whether you play it, watch it, double tap or swipe it, our developers merge them to creative and technical to build it. Scale up or scale down, on any screen or surface. You name it, we make it.
+                    </p>
+                </div>
+            </div>
+            <div class="border border-solid border-gray-200 bg-secondary rounded-[25px]">
+                <img src="./assets/interactive-design.png" alt="" class="w-full object-cover">
+                <div class="p-5 flex flex-col gap-2">
+                    <p class="m-0 font-semibold text-gray-500 text-xl">
+                        Interactive Design.
+                    </p>
+                    <p class="m-0 text-gray-400 text-base">
+                        We bring designs to life. Capture your audience’s attention and leave good impression. Telling your stories through concept and user experiences.
+                    </p>
+                </div>
+            </div>
+            <div class="border border-solid border-gray-200 bg-secondary rounded-[25px]">
+                <img src="./assets/digital-agency.png" alt="" class="w-full object-cover">
+                <div class="p-5 flex flex-col gap-2">
+                    <p class="m-0 font-semibold text-gray-500 text-xl">
+                        Digital Agency
+                    </p>
+                    <p class="m-0 text-gray-400 text-base">
+                        Make your brand recognized by your audiences. Simply throw to us, we’ll running it, build awareness and engagement to them.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-custom py-10 my-10 flex lg:flex-row flex-col items-center gap-10">
+        <div class="flex-1">
+            <img src="./assets/telco.png" alt="">
+        </div>
+        <div class="flex-1 flex flex-col gap-7">
+            <h2 class="font-rajdhani text-primary text-4xl font-semibold">IT Network &<span class="text-red-theme">Telecommunication.</span></h2>
+            <p class="text-gray-400 m-0">We have team that has strong knowledge and experienced more than 10 years to help end-to-end from build into maintain your IT Network/Telco Infrastructure.</p>
+            <div class="grid grid-cols-2 gap-7">
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Fiber Optic / FTTH</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Internet Service Provider (RT/RW Net)</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Access Point</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Maintenance & Procurement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-custom flex py-10 gap-10 flex-col lg:flex-row">
+        <div class="flex-[1.5] flex flex-col gap-2">
+            <h2 class="font-rajdhani text-primary text-4xl font-semibold">Smart Home/Office<span class="text-red-theme">(IOT).</span></h2>
+            <p class="text-gray-400 m-0">
+                We can setting up smart system for your home or office needs. Manage your security system (CCTV, Door, etc) and electricity (lamp, AC, etc) remotely by Internet/Beacon/RFID/Sensor.
+            </p>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 mt-10">
+                <div class="flex flex-col items-center gap-2">
+                    <div class="flex items-center justify-center p-7 rounded-3xl border border-solid border-gray-300 bg-secondary">
+                        <img src="./assets/iot-1.png" alt="internet of things" class="w-[50px]">
+                    </div>
+                    <p class="text-gray-500 font-medium">Internet Of Things</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="flex items-center justify-center p-7 rounded-3xl border border-solid border-gray-300 bg-secondary">
+                        <img src="./assets/iot-2.png" alt="Bluetooth" class="w-[50px]">
+                    </div>
+                    <p class="text-gray-500 font-medium">Beacon (Bluetooth)</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="flex items-center justify-center p-7 rounded-3xl border border-solid border-gray-300 bg-secondary">
+                        <img src="./assets/iot-3.png" alt="RFID Tag" class="w-[50px]">
+                    </div>
+                    <p class="text-gray-500 font-medium">RFID Tag</p>
+                </div>
+                <div class="flex flex-col items-center gap-2">
+                    <div class="flex items-center justify-center p-7 rounded-3xl border border-solid border-gray-300 bg-secondary">
+                        <img src="./assets/iot-4.png" alt="Sensor thermal" class="w-[50px]">
+                    </div>
+                    <p class="text-gray-500 font-medium text-center">Sensor (motion/thermal)</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1">
+            <img src="./assets/iot.png" alt="">
+        </div>
+    </section>
+    <section class="container-custom flex gap-10 py-10 lg:flex-row flex-col">
+        <div class="flex-[1.5]">
+            <img src="./assets/menpower.png" alt="">
+        </div>
+        <div class="flex-1 flex flex-col gap-2">
+            <h2 class="font-rajdhani text-primary text-4xl font-semibold">Manpower<span class="text-red-theme">Sourcing</span></h2>
+            <p class="text-gray-400 m-0">
+                We provide professional and project-based talents that ready to work for your business.
+            </p>
+            <div class="flex flex-col gap-8 mt-10">
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Head Hunter</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Talent Management</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img src="./assets/checked.png" alt="">
+                    <p class="text-gray-500 font-semibold">Talent Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="relative py-40">
+        <div class="container-custom flex">
+            <div class="flex-1 flex flex-col">
+                <p class="text-primary font-rajdhani text-4xl font-semibold">Your ideas & Plans deserve better execution</p>
+                <p class="text-gray-400 m-0 mt-3">
+                    We are excited to join you on your journey for your next project, let’s get started today!
+                </p>
+                <button class="bg-red-theme w-fit rounded-full px-7 py-1 text-white font-roboto mt-5">Contact Us</button>
+            </div>
+            <div class="flex-1 hidden lg:block"></div>
+        </div>
+        <img src="./assets/footer.png" class="absolute bottom-0 right-0" alt="">
+    </section>
+    <footer class="bg-primary relative w-full py-10 pb-40">
+        <img src="./assets/pattern.png" alt="" class="w-full absolute object-cover top-0 left-0 right-0 bottom-0 h-full z-20 pointer-events-none">
+        <div class="container-custom grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 z-30">
+            <div class="flex flex-col gap-4">
+                <img src="./assets/white-a.png" class="w-[70px]" alt="">
+                <p class="text-white font-medium">PT Aliansi Inovasi Global</p>
+                <p class="text-white font-light">
+                    Menara by Kibar 5th floor <br>
+                    Jl. Raden Saleh Raya tidak.46A, RT.1/RW.2, Cikini, <br> Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota <br> Jakarta 10330
+                </p>
+            </div>
+            <div class="flex items-center gap-5 md:justify-center justify-start">
+                <a href="#"><img src="./assets/facebook.svg" alt=""></a>
+                <a href="#"><img src="./assets/instagram.svg" alt=""></a>
+                <a href="#"><img src="./assets/twitter.svg" alt=""></a>
+                <a href="#"><img src="./assets/mail.svg" alt=""></a>
+            </div>
+            <div class="flex">
+                <div class="flex-[1.5] flex-col flex gap-5">
+                    <a class="text-white font-medium text-xl" href="#">FAQ</a>
+                    <a class="text-white font-medium text-xl" href="#">Syarat Ketentuan</a>
+                    <a class="text-white font-medium text-xl" href="#">Kebijakan Privasi</a>
+                    <a class="text-white font-medium text-xl" href="#">Partnership</a>
+                </div>
+                <div class="flex-1" id="whatsapp-footer">
+                    <a href="" class="bg-[#73CE48] hidden xl:flex items-center gap-3 rounded-full px-5 py-2 text-white font-medium">
+                        <img src="./assets/whatsapp.svg" alt="whatsapp">
+                        Whatsapp
+                    </a>
+                    <a href="" class="bg-[#73CE48] xl:hidden flex items-center justify-center gap-3 rounded-full w-[50px] h-[50px] text-white font-medium">
+                        <img src="./assets/whatsapp.svg" alt="whatsapp">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="" class="bg-[#73CE48] fixed bottom-10 right-10 z-20 flex items-center justify-center gap-3 rounded-full w-[50px] h-[50px] text-white font-medium">
+        <img src="./assets/whatsapp.svg" alt="whatsapp">
+    </a>
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
